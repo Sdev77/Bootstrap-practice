@@ -17,14 +17,14 @@
     <header>
       <nav class="nav-container navbar navbar-nav">
         <ul class="nav-item-container">
-          <a href="#home"><li class="nav-items">Home</li></a>
+          <a href="index.html"><li class="nav-items">Home</li></a>
           <a href="#Ingredients"> <li class="nav-items">Ingredients</li></a>
-          <a href="#Locations"><li class="nav-items">Locations</li></a>
+          <a href="location.html"><li class="nav-items">Locations</li></a>
         </ul>
       </nav>
       <section class="heading section">
         <div class="h1-container text-center">
-          <h1 class="h1-text">Welcome to using Bootstrap</h1>
+          <h1 class="h1-text">Locations to Find <span class="k-tastic">KetoTastic</span></h1>
         </div>
       </section>
     </header>
@@ -34,69 +34,25 @@
           <div class="img-container">
             <img
               class="food-img img-fluid image-thumbnail"
-              src="food1.jpeg"
+              src="Ketotastic Location.png"
               alt=""
             />
           </div>
           <div class="desc-container">
             <div class="position-relative top-50 start-50 translate-middle">
-              <h2 class="food-title">Keto Friendly</h2>
-              <p class="desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                reprehenderit accusantium ab aperiam cum. Hic autem magnam harum
-                dolores.
-              </p>
+              <h2 class="food-title">Find your Nearest KetoTastic</h2>
+              <form class="address-form p-3 form-control-lg">
+                <input type="text" id="Address" name="Address" placeholder="Enter Address Here">
+              </form>
               <button
                 type="button"
-                class="btn-own btn btn-warning rounded-pill text-center"
+                class="btn-own btn btn-warning rounded-pill text-center ps-7"
               >
-                Where to eat
+                Search
               </button>
-              <button
-                type="button"
-                id="rounded"
-                class="btn-own btn btn-outline-info"
-              >
-                See ingredients
-              </button>
+            
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="second">
-        <div class="grid-container">
-          <div class="img-container">
-            <img
-              class="food-img img-fluid image-thumbnail"
-              src="food1.jpeg"
-              alt=""
-            />
-          </div>
-          <div class="desc-container">
-            <div class="position-relative top-50 start-50 translate-middle">
-              <h2 class="food-title">Keto Friendly</h2>
-              <p class="desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                reprehenderit accusantium ab aperiam cum. Hic autem magnam harum
-                dolores.
-              </p>
-              <button
-                type="button"
-                class="btn-own btn btn-warning rounded-pill text-center"
-              >
-                Where to eat
-              </button>
-              <button
-                type="button"
-                id="rounded"
-                class="btn-own btn btn-outline-info"
-              >
-                See ingredients
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+          
       <section class="third"></section>
     </main>
   </body>
